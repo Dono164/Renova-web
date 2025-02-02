@@ -1,0 +1,629 @@
+/* Header */
+header {
+    background-color: #fff;
+    padding: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 700;
+}
+
+.cart-icon img {
+    height: 24px;
+}
+
+/* Hero Section */
+.hero {
+    background: url('assets/images/hero-bg.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.hero .btn {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Catálogo */
+.catalogo {
+    padding: 50px 0;
+}
+
+.catalogo h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.grid-productos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.producto {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.producto img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.producto h3 {
+    margin: 15px 0 10px;
+}
+
+.producto p {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+.producto .btn {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Estilos Generales */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #938b8b;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Asegura que el body ocupe al menos el 100% de la altura de la ventana */
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+/* Hero Section */
+.hero-sostenibilidad {
+    background: url('assets/images/hero-sostenibilidad.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0; /* Aumenté el padding para más espacio */
+}
+
+.hero-sostenibilidad h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero-sostenibilidad p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+/* Compromiso */
+.compromiso {
+    padding: 80px 0; /* Aumenté el padding para más espacio */
+}
+
+.compromiso h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+}
+
+.compromiso p {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.grid-compromiso {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 40px; /* Aumenté el gap para más espacio entre tarjetas */
+}
+
+.card {
+    background-color: #fff;
+    padding: 30px; /* Aumenté el padding para más espacio interno */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px); /* Efecto hover para las tarjetas */
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px; /* Aumenté el margen inferior */
+}
+
+.card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.card p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Certificaciones */
+.certificaciones {
+    padding: 80px 0; /* Aumenté el padding para más espacio */
+    background-color: #fff;
+}
+
+.certificaciones h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+}
+
+.certificaciones p {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.grid-certificaciones {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 40px; /* Aumenté el gap para más espacio entre certificados */
+}
+
+.certificado {
+    text-align: center;
+}
+
+.certificado img {
+    width: 80px;
+    margin-bottom: 20px; /* Aumenté el margen inferior */
+}
+
+.certificado p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Impacto Ambiental */
+.impacto {
+    padding: 80px 0; /* Aumenté el padding para más espacio */
+}
+
+.impacto h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+}
+
+.impacto p {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.estadisticas {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 40px; /* Aumenté el gap para más espacio entre estadísticas */
+}
+
+.estadistica {
+    text-align: center;
+    background-color: #fff;
+    padding: 30px; /* Aumenté el padding para más espacio interno */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.estadistica h3 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.estadistica p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Testimonios */
+.testimonios {
+    padding: 80px 0; /* Aumenté el padding para más espacio */
+    background-color: #f9f9f9;
+}
+
+.testimonios h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+}
+
+.grid-testimonios {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 40px; /* Aumenté el gap para más espacio entre testimonios */
+}
+
+.testimonio {
+    background-color: #fff;
+    padding: 30px; /* Aumenté el padding para más espacio interno */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.testimonio p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+.testimonio .autor {
+    font-weight: bold;
+    margin-top: 20px; /* Aumenté el margen superior */
+    color: #333;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 40px 0; /* Aumenté el padding para más espacio */
+    margin-top: auto; /* Empuja el footer hacia abajo */
+}
+
+footer p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+
+/* Contacto */
+.contacto {
+    padding: 70px 0;
+    text-align: center;
+}
+
+.contacto form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.contacto input, .contacto textarea {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contacto .btn {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+/* Animaciones */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.producto, .hero, .sostenibilidad, .contacto {
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Estilos para la Sección de Contacto */
+.contacto {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.contacto h2 {
+    margin-bottom: 40px;
+    font-size: 2rem;
+}
+
+.contacto form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.contacto input, .contacto textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contacto textarea {
+    resize: vertical;
+    min-height: 150px;
+}
+
+.contacto .btn {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.contacto .btn:hover {
+    background-color: #555;
+}
+
+
+
+/* Estilos generales */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Asegura que el body ocupe al menos el 100% de la altura de la ventana */
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Contenedor principal (para las secciones) */
+main {
+    flex: 1; /* Hace que el contenido principal ocupe el espacio restante */
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: auto; /* Empuja el footer hacia abajo */
+}
+
+
+/* Estilos para móviles (hasta 768px) */
+@media (max-width: 768px) {
+    /* Header */
+    header .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+    /* Hero Section */
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    /* Catálogo */
+    .grid-productos {
+        grid-template-columns: 1fr;
+    }
+
+    /* Sostenibilidad */
+    .grid-compromiso, .grid-certificaciones, .estadisticas, .grid-testimonios {
+        grid-template-columns: 1fr;
+    }
+
+    /* Contacto */
+    .contacto form {
+        width: 90%;
+    }
+}
+
+/* Estilos para tablets (769px a 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .grid-productos, .grid-compromiso, .grid-certificaciones, .estadisticas, .grid-testimonios {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Novedades */
+.novedades {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+}
+
+.novedades h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+}
+
+.grid-novedades {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.novedad {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.novedad img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.novedad h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.novedad p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Beneficios */
+.beneficios {
+    padding: 50px 0;
+}
+
+.beneficios h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+}
+
+.grid-beneficios {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.beneficio {
+    text-align: center;
+}
+
+.beneficio img {
+    width: 60px;
+    margin-bottom: 15px;
+}
+
+.beneficio h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.beneficio p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Galería */
+.galeria {
+    padding: 50px 0;
+}
+
+.galeria h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+}
+
+.grid-galeria {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+}
+
+.grid-galeria img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Llamado a la acción */
+.cta {
+    background-color: #ffffff;
+    color: #605e5e;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.cta h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.cta p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.cta .btn {
+    background-color: #fff;
+    color: #fefefe;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
